@@ -11,7 +11,7 @@ module.exports = {
     'style.css': path.resolve(__dirname, './src/scss/index.scss')
   },   
   output: {
-    path: path.resolve(__dirname, './dist/'),
+    path: path.resolve(__dirname, './docs/'),
     filename: 'js/[name].js',
   },
   module: {
